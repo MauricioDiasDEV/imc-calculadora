@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Calculadora IMC</title>
+</head>
+<body>
+    <h1>IMC</h1>
+    <div id="app">
+        <form onsubmit="return calcular(event)">
+            <label for="">Digite seu peso </label><br/><br/>
+            <input type="text" name="peso" id="peso" placeholder="Exemplo 65"/><br/><br/>
+            <label for="">Digite sua altura </label><br/><br/>
+            <input type="text" name="altura" id="altura" placeholder="Exemplo 1.9"/><br/><br/>
+            <input type="submit" id="submit" value="Calcular"/><br/><br/>
+        </form>
+    </div>
+    <div id="resultado"></div>
+    <footer>
+        <p>Desenvolvido por Mauricio Dias</p>
+    </footer>
+</body>
+</html>
